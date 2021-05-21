@@ -7,14 +7,21 @@
   });
 </script>
 
-<canvas bind:this={el}></canvas>
+<main>
+	<canvas bind:this={el}></canvas>
+	<h1> Hallacoin. </h1>
+</main>
 
 <style>
 :global(body){
 	background: black;
+	text-align: center;
 }
 canvas {
 	max-width: 90%;
-	max-height: 90%;
+	max-height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 </style>
