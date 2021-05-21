@@ -37,7 +37,7 @@ var sidematerial = new THREE.MeshPhongMaterial({
 	normalMap: new THREE.TextureLoader().load('assets/models/Normal.png'),
 	envMap: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
 	shininess: 100,
-	reflectivity: 0.5,
+	reflectivity: 0.1,
 	flatShading: false
 });
 
