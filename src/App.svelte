@@ -19,6 +19,16 @@
 	color: #EEEEEE;
 	text-align: center;
 }
+.credit{
+	text-align: left;
+	font-size: .75em;
+	color: #aaaaaa;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h1{
+	margin-top: 0;
+}
 canvas {
 /*	max-width: 90%;
 	max-height: 20%;*/
