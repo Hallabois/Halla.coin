@@ -6,10 +6,10 @@
 [npm](https://www.npmjs.com/get-npm) tulee olla asennettuna
 
 ## Asenna riippuvuudet
-> npm install
+```npm install```
 ## Käynnistä http-serveri
-> npm run dev
-Tämä hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000
+```npm run dev```
+Hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000
 
 # Arkkitehtuurista
 /public/							```Compilattu koodi ja staattinen media (mm. 3d-mallit)```
