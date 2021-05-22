@@ -2,6 +2,8 @@ import * as THREE from 'three';
 //import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -17,17 +19,32 @@ let light = new THREE.PointLight(0xffffff);
 light.position.set(10, 50, 20);
 scene.add(light);
 
-const lightAmb = new THREE.AmbientLight(0xff77ff);
+let light2 = new THREE.PointLight(0xffffff);
+light.position.set(20, 50, 20);
+scene.add(light2);
+
+let light3 = new THREE.PointLight(0xffffff);
+light.position.set(10, 50, 10);
+scene.add(light3);
+
+const lightAmb = new THREE.AmbientLight(0xffffff);
 scene.add(lightAmb);
 
 const coin = new THREE.Object3D();
 
 const mtlLoader = new MTLLoader( );  //  !  without THREE.
 
+var goldmaterial = new THREE.MeshStandardMaterial({
+	color: 0xD0B727,
+	envMap: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
+	metalness: 1.0,
+	roughness: 0.25,
+	flatShading: false
+});
 var facematerial = new THREE.MeshPhongMaterial({
 	map: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
 	normalMap: new THREE.TextureLoader().load('assets/models/Normal.png'),
-	envMap: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
+	envMap: new THREE.TextureLoader().load('assets/parched_canal.png'),
 	shininess: 100,
 	reflectivity: 0.5,
 	flatShading: false
@@ -42,36 +59,22 @@ var sidematerial = new THREE.MeshPhongMaterial({
 });
 
 mtlLoader.load(
- 'assets/models/hallacoin.mtl',
+ 'assets/models/hallacoin_aarni.mtl',
 
   function (materials) {
 	materials.preload();
-	const loader = new OBJLoader();
-	loader.setMaterials( materials );
+	const loader = new GLTFLoader();
+	//loader.setMaterials( materials );
 	loader.load(
 
-	 'assets/models/hallacoin.obj',
+	 'assets/models/hallacoin_aarni.glb',
 		// called when resource is loaded
-		function ( object ) {
-
-			object.traverse( 
-			function ( child ) {
-				if ( child instanceof THREE.Object3D  ) {
-					if(child.name.includes("Material.001")){
-						child.material = facematerial;
-					}
-					if(child.name.includes("Reunat")){
-						child.material = sidematerial;
-					}
-					//alert(child.name);
-					//console.log(child);
-						
-						//scene.add( line );
-				}
-			} );
-
-			coin.add( object );
-
+		function ( gltf ) {
+			//scene.add( gltf.scene );
+			const mesh = gltf.scene.children[ 0 ];
+			mesh.material = goldmaterial;
+			coin.add(mesh);
+			//scene.add( mesh );
 		},
 		// called when loading is in progresses
 		function ( xhr ) {
@@ -109,7 +112,7 @@ const resize = () => {
 };
 
 export const createScene = (el) => {
-  renderer = new THREE.WebGLRenderer({ antialias: true, canvas: el });
+  renderer = new THREE.WebGLRenderer({ antialias: true, canvas: el, alpha: true });
   resize();
   animate();
 }

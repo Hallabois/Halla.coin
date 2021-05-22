@@ -14,7 +14,7 @@
 
 <style>
 :global(body){
-	background: black;
+	background: #262626;
 	text-align: center;
 }
 canvas {
