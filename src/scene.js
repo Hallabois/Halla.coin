@@ -109,6 +109,7 @@ const resize = () => {
   renderer.setSize(window.innerWidth, window.innerHeight)
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
+  resizeCanvasToDisplaySize();
 };
 
 export const createScene = (el) => {
@@ -116,6 +117,21 @@ export const createScene = (el) => {
   resize();
   animate();
 }
+function resizeCanvasToDisplaySize() {
+  const canvas = renderer.domElement;
+  // look up the size the canvas is being displayed
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
 
+  // adjust displayBuffer size to match
+  if (canvas.width !== width || canvas.height !== height) {
+    // you must pass false here or three.js sadly fights the browser
+    renderer.setSize(width, height, false);
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+
+    // update any render target sizes here
+  }
+}
 window.addEventListener('resize', resize);
 console.log(scene);
