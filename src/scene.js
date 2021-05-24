@@ -49,7 +49,7 @@ scene.background = textureEquirec;
 
 
 var goldmaterial = new THREE.MeshStandardMaterial({
-	color: 0xD0B727,
+	color: 0xFFC689,
 	envMap: textureEquirec,
 	metalness: 0.9,
 	roughness: 0.1,
