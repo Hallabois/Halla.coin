@@ -6,7 +6,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.1, 1000);
 const material = new THREE.MeshBasicMaterial({ color: 0xffffff });
 let renderer;
 
@@ -20,25 +20,39 @@ light.position.set(10, 50, 20);
 scene.add(light);
 
 let light2 = new THREE.PointLight(0xffffff);
-light.position.set(20, 50, 20);
+light2.position.set(20, 50, 20);
 scene.add(light2);
 
 let light3 = new THREE.PointLight(0xffffff);
-light.position.set(10, 50, 10);
+light3.position.set(10, 50, 10);
+scene.add(light3);
+
+let spot = new THREE.PointLight(0xffffff);
+light.position.set(0, 0, 0);
+spot.intensity = 5;
 scene.add(light3);
 
 const lightAmb = new THREE.AmbientLight(0xffffff);
+lightAmb.intensity = 1;
 scene.add(lightAmb);
 
 const coin = new THREE.Object3D();
 
 const mtlLoader = new MTLLoader( );  //  !  without THREE.
 
+const textureLoader = new THREE.TextureLoader();
+
+var textureEquirec = textureLoader.load('assets/parched_canal.png');
+textureEquirec.mapping = THREE.EquirectangularReflectionMapping;
+textureEquirec.encoding = THREE.sRGBEncoding;
+scene.background = textureEquirec;
+
+
 var goldmaterial = new THREE.MeshStandardMaterial({
 	color: 0xD0B727,
-	envMap: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
-	metalness: 1.0,
-	roughness: 0.25,
+	envMap: textureEquirec,
+	metalness: 0.9,
+	roughness: 0.1,
 	flatShading: false
 });
 var facematerial = new THREE.MeshPhongMaterial({
