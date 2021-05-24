@@ -1,18 +1,17 @@
 <script>
   import { onMount } from 'svelte';
-  import { createScene } from "./scene";
-  let el;
-  onMount(() => {
-    createScene(el)
-  });
+  import Scene from "./scene.svelte";
   let tutorialURL = "https://hallabois.github.io/Hallacoin-ohjeet/";
   function go(){
   	window.location.href = tutorialURL;
   }
+  let loaded = false;
+  let loaded_percent = 0;
+  $: progress_display = loaded?"none":"inherit";
 </script>
 
 <main>
-	<canvas bind:this={el}></canvas>
+	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	<h1> Hallacoin </h1>
 	<button on:click={go}> Lataa nyt </button>
