@@ -80,7 +80,7 @@
 	});
 
 	mtlLoader.load(
-	 'assets/models/hallacoin_aarni.mtl',
+	 'assets/models/hallacoin_anton.mtl',
 
 	  function (materials) {
 		materials.preload();
@@ -88,7 +88,7 @@
 		//loader.setMaterials( materials );
 		loader.load(
 
-		 'assets/models/hallacoin_aarni.glb',
+		 'assets/models/hallacoin_anton.glb',
 			// called when resource is loaded
 			function ( gltf ) {
 				//scene.add( gltf.scene );
@@ -204,7 +204,7 @@
 	}
 </script>
 
-	<canvas bind:this={canvas}> </canvas>
+	<canvas width=0 height=0 bind:this={canvas}> </canvas>
 	{#if !loaded}
 	<Loadingbar bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	{/if}
@@ -213,6 +213,7 @@
 main, canvas {
 	width: 70% !important;
 	height: auto !important;
+	max-height: 50vh !important;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
