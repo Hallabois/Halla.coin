@@ -20,8 +20,8 @@
 	text-align: center;
 }
 .credit{
-	text-align: left;
-	font-size: .75em;
+	text-align: middle;
+	font-size: .5em;
 	color: #aaaaaa;
 	margin-top: 0;
 	margin-bottom: 0;
