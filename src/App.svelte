@@ -5,13 +5,17 @@
   onMount(() => {
     createScene(el)
   });
+  let tutorialURL = "https://github.com/hallabois/Hallacoin-ohjeet";
+  function go(){
+  	window.location.href = tutorialURL;
+  }
 </script>
 
 <main>
 	<canvas bind:this={el}></canvas>
 	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	<h1> Hallacoin </h1>
-	<button> Lataa nyt </button>
+	<button on:click={go}> Lataa nyt </button>
 </main>
 
 <style>
@@ -48,8 +52,10 @@ canvas {
 button{
 	font-size: 150%;
 	border-radius: .2em;
+	transition: box-shadow .25s;
 }
 button:hover{
-	border: 1px solid #55FF55;
+	box-shadow: .5em .5em 1em black;
+	cursor: pointer;
 }
 </style>
