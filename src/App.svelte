@@ -9,8 +9,8 @@
 
 <main>
 	<canvas bind:this={el}></canvas>
-	<p class="credit">Hallacoin 3D-model made by @Anatoli (Sano mitä haluut tähä)</p>
-	<h1> Hallacoin. </h1>
+	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
+	<h1> Hallacoin </h1>
 </main>
 
 <style>
@@ -21,10 +21,10 @@
 }
 .credit{
 	text-align: middle;
-	font-size: .5em;
+	font-size: .3em;
 	color: #aaaaaa;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 15px;
 }
 h1{
 	margin-top: 0;
