@@ -39,15 +39,6 @@ h1{
 	margin-top: 0;
 	font-size: 300%;
 }
-canvas {
-/*	max-width: 90%;
-	max-height: 20%;*/
-	width: 70% !important;
-	height: auto !important;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 button{
 	font-size: 150%;
 	border-radius: .2em;

@@ -13,7 +13,7 @@
 
 
 	const scene = new THREE.Scene();
-	const camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.1, 1000);
+	const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 1000);
 	const material = new THREE.MeshBasicMaterial({ color: 0xffffff });
 	let renderer;
 
@@ -204,12 +204,10 @@
 	}
 </script>
 
-<main style="--show:{display}">
 	<canvas bind:this={canvas}> </canvas>
 	{#if !loaded}
 	<Loadingbar bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	{/if}
-</main>
 
 <style>
 main, canvas {
@@ -219,5 +217,12 @@ main, canvas {
 	margin-left: auto;
 	margin-right: auto;
 /*	display: var(--show);*/
+}
+@media (max-aspect-ratio: 3/4) {
+	main, canvas {
+		width: auto !important;
+		max-width: 100%;
+		height: 50vh !important;
+	}
 }
 </style>
