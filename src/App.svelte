@@ -5,7 +5,7 @@
   onMount(() => {
     createScene(el)
   });
-  let tutorialURL = "https://github.com/hallabois/Hallacoin-ohjeet";
+  let tutorialURL = "https://hallabois.github.io/Hallacoin-ohjeet/";
   function go(){
   	window.location.href = tutorialURL;
   }
