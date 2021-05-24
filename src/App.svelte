@@ -11,6 +11,7 @@
 	<canvas bind:this={el}></canvas>
 	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	<h1> Hallacoin </h1>
+	<p class="ohjeet">Miten ladata tai jotain</p>
 </main>
 
 <style>
@@ -26,8 +27,14 @@
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+.ohjeet{
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
 h1{
 	margin-top: 0;
+	font-size: 300%;
 }
 canvas {
 /*	max-width: 90%;
