@@ -163,8 +163,45 @@
 
 	let canvas;
 	onMount(() => {
-	  createScene(canvas)
+		createScene(canvas);
+		canvas.addEventListener('mousedown', handleMousedown);
+		canvas.addEventListener('touchstart', handleTouchdown);
 	});
+	let x = 0;
+	function handleMousedown(event) {
+		x = event.clientX;
+		window.addEventListener('mousemove', handleMousemove);
+		window.addEventListener('mouseup', handleMouseup);
+	}
+	function handleMouseup(event) {
+		x = event.clientX;
+		window.removeEventListener('mousemove', handleMousemove);
+		window.removeEventListener('mouseup', handleMouseup);
+	}
+	function handleMousemove(event) {
+		const dx = event.clientX - x;
+		x = event.clientX;
+		coin.rotation.y += dx*0.02;
+	}
+	let xt = 0;
+	function handleTouchdown(event) {
+		event = event.changedTouches[0];
+		xt = event.clientX;
+		window.addEventListener('touchmove', handleTouchmove);
+		window.addEventListener('touchend', handleTouchup);
+	}
+	function handleTouchup(event) {
+		event = event.changedTouches[0];
+		xt = event.clientX;
+		window.removeEventListener('touchmove', handleTouchmove);
+		window.removeEventListener('touchend', handleTouchup);
+	}
+	function handleTouchmove(event) {
+		event = event.changedTouches[0];
+		const dx = event.clientX - xt;
+		xt = event.clientX;
+		coin.rotation.y += dx*0.02;
+	}
 </script>
 
 <main style="--show:{display}">
