@@ -11,7 +11,7 @@
 	<canvas bind:this={el}></canvas>
 	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	<h1> Hallacoin </h1>
-	<p class="ohjeet">Miten ladata tai jotain</p>
+	<button> Lataa nyt </button>
 </main>
 
 <style>
@@ -22,7 +22,7 @@
 }
 .credit{
 	text-align: middle;
-	font-size: .3em;
+	font-size: 1;
 	color: #aaaaaa;
 	margin-top: 0;
 	margin-bottom: 15px;
@@ -44,5 +44,12 @@ canvas {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+button{
+	font-size: 150%;
+	border-radius: .2em;
+}
+button:hover{
+	border: 1px solid #55FF55;
 }
 </style>

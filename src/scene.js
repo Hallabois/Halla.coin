@@ -16,11 +16,11 @@ const clock  = new THREE.Clock( true );
 let time;	// for animate
 
 let light = new THREE.PointLight(0xffffff);
-light.position.set(10, 50, 20);
+light.position.set(10, 5, 0);
 scene.add(light);
 
 let light2 = new THREE.PointLight(0xffffff);
-light2.position.set(20, 50, 20);
+light2.position.set(-10, 5, 0);
 scene.add(light2);
 
 let light3 = new THREE.PointLight(0xffffff);
@@ -28,9 +28,9 @@ light3.position.set(10, 50, 10);
 scene.add(light3);
 
 let spot = new THREE.PointLight(0xffffff);
-light.position.set(0, 0, 0);
-spot.intensity = 5;
-scene.add(light3);
+light.position.set(0, 0, 10);
+spot.intensity = 0.5;
+scene.add(spot);
 
 const lightAmb = new THREE.AmbientLight(0xffffff);
 lightAmb.intensity = 1;
@@ -49,10 +49,10 @@ scene.background = textureEquirec;
 
 
 var goldmaterial = new THREE.MeshStandardMaterial({
-	color: 0xFFC689,
+	color: 0xFFCE5B,
 	envMap: textureEquirec,
-	metalness: 0.9,
-	roughness: 0.1,
+	metalness: 0.96,
+	roughness: 0.2,
 	flatShading: false
 });
 var facematerial = new THREE.MeshPhongMaterial({
