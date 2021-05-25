@@ -12,11 +12,11 @@
 
 <main>
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
-	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
-	<h1> Hallacoin </h1>
+	<h1>Hallacoin</h1>
 	<p class="laudatur">Since 1940 - Confido Autem In Halla - Inventum Est Ksyk</p>
     <div class="ohje ohje-pariton">
 		<!-- <button on:click={go}> Lataa nyt </button> -->
+		<img src="downloadicon.png" alt="HallaDownload" width="80" height="80">
 		<h2>Asennus Windowsille (64-bit)</h2>
 		<ol>
 		<li>Lataa ja asenna <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
@@ -26,15 +26,18 @@
 		</ol>
 	</div>
 	<div class="ohje">
-		<h2>Kaivostoiminta</h2>
+		<img src="kaivostoiminta.png" alt="Kaivostoiminta" width="80" height="80">
+		<h2>Kaivostoiminta</h2>		
 		<ol>
 		<li>Lataa <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
 		<li>Mene Hallacoinin asennuskansioon ja suorita seuraava komento: Hallacoin-qt.exe -server -addresstype=legacy</li>
-		<li>Mene kansioon, johon latasit cpuminerin ja suorita seuraava komento: minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun Hallacoin-osoite (Hallacoin osoite lyötyy vastaanota rahoja-osiosta)</li>
+		<li>Mene kansioon, johon latasit cpuminerin ja suorita seuraava komento: minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun Hallacoin-osoite (Hallacoin osoite löytyy vastaanota rahoja-osiosta)</li>
 	</div>
 	<div class="ohje ohje-pariton">
+		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>Mikä on Hallacoin?</h2>
 		<p>Hallacoin on <a href="https://discord.gg/4HFVy2BAbe">Hallabois</a>-palvelimen ylläpitämä kryptovaluutta.</p>
+		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	</div>
 </main>
 
@@ -49,23 +52,33 @@
 
 /* Helpompi muuttaa kaikkia asioita kerralla  */
 .ohje {
-	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0;
 	color: #EEEEEE;
 }
 .ohje-pariton {
 	background: #1e2f3e;
+	padding-top: 0;
 }
-
+.laudatur {
+	font-family: 'Mate SC', serif;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.credit{
+	font-size: .75em;
+}
 /*                                    */
 h1{
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 400%;
+	font-size: 450%;
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: 2px;
 }
 h2{
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 40px;
 }
 ol{
 	width: 50%;
@@ -74,6 +87,10 @@ ol{
 }
 a{
 
+}
+img{
+	margin-top: 20px;
+	margin-bottom: 12px;
 }
 button{
 	margin-top: 30px;
