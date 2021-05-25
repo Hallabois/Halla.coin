@@ -20,7 +20,7 @@
 		<h2>Asennus Windowsille (64-bit)</h2>
 		<ol>
 		<li>Lataa ja asenna <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
-		<li>Lataa tiedosto <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download>Hallacoin.conf</a> (Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.</li>
+		<li>Lataa tiedosto <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download="Hallacoin.conf">Hallacoin.conf</a> (Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.</li>
 		<li>Siirrä tiedosto kansioon C:\Users\SUNNIMITÄHÄN\AppData\Roaming\Hallacoin.</li>
 		<li>Olet valmis käyttämään Hallacoinia!</li>
 		</ol>
