@@ -16,7 +16,7 @@
 	<p class="laudatur">Since 1940 - Confido Autem In Halla - Inventum Est Ksyk</p>
     <div class="ohje ohje-pariton">
 		<!-- <button on:click={go}> Lataa nyt </button> -->
-		<img src="downloadicon.png" alt="HallaDownload" width="80" height="80">
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="downloadicon.png" alt="HallaDownload" width="80" height="80"></a>
 		<h2>Asennus Windowsille (64-bit)</h2>
 		<ol>
 		<li>Lataa ja asenna <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
