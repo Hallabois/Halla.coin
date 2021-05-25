@@ -40,7 +40,7 @@
 	let spot = new THREE.PointLight(0xffffff);
 	light.position.set(0, 0, 10);
 	spot.intensity = 0.5;
-	scene.add(spot);
+//	scene.add(spot);
 
 	const lightAmb = new THREE.AmbientLight(0xffffff);
 	lightAmb.intensity = 1;
