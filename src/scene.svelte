@@ -10,6 +10,9 @@
 	export let loaded = false;
 	export let loaded_percent = 0;
 	$: display = loaded?"block":"none";
+	
+	export let baseSpeed = 1.0;
+	let speed = baseSpeed;
 
 
 	const scene = new THREE.Scene();
@@ -126,7 +129,7 @@
 	  requestAnimationFrame(animate);
 	//  cube.rotation.x += 0.01;
 	//  cube.rotation.y += 0.01;
-	  coin.rotation.y -= 0.01;
+	  coin.rotation.y -= 0.01*speed;
 	  renderer.render(scene, camera);
 	};
 
@@ -177,11 +180,13 @@
 		x = event.clientX;
 		window.removeEventListener('mousemove', handleMousemove);
 		window.removeEventListener('mouseup', handleMouseup);
+		speed = baseSpeed;
 	}
 	function handleMousemove(event) {
 		const dx = event.clientX - x;
 		x = event.clientX;
 		coin.rotation.y += dx*0.02;
+		speed *= 0.5;
 	}
 	let xt = 0;
 	function handleTouchdown(event) {
@@ -195,12 +200,14 @@
 		xt = event.clientX;
 		window.removeEventListener('touchmove', handleTouchmove);
 		window.removeEventListener('touchend', handleTouchup);
+		speed = baseSpeed;
 	}
 	function handleTouchmove(event) {
 		event = event.changedTouches[0];
 		const dx = event.clientX - xt;
 		xt = event.clientX;
 		coin.rotation.y += dx*0.02;
+		speed *= 0.5;
 	}
 </script>
 
