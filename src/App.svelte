@@ -33,7 +33,8 @@
 		<li>Mene kansioon, johon latasit cpuminerin ja suorita seuraava komento: minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun Hallacoin-osoite (Hallacoin osoite lyötyy vastaanota rahoja-osiosta)</li>
 	</div>
 	<div class="abouthalla">
-		
+		<h2>Mikä on Hallacoin?</h2>
+		<p>Hallacoin on <a href="https://discord.gg/4HFVy2BAbe">Hallabois</a> palvelimen ylläpitämä kryptovaluutta.</p>
 	</div>
 	
 </main>
@@ -65,6 +66,13 @@
 	background: #1f2125;
 	color: #EEEEEE;
 }
+.abouthalla{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	background: #1e2f3e;
+	color: #EEEEEE;
+}
+
 h1{
 	margin-top: 0;
 	margin-bottom: 0;
