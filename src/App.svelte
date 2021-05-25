@@ -14,32 +14,40 @@
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 	<h1> Hallacoin </h1>
-	<button on:click={go}> Lataa nyt </button>
+	<p class="laudatur">Since 1940 - Confido Autem In Halla - Inventum Est Ksyk</p>
+        <div class="ohjeet">
+		<button on:click={go}> Lataa nyt </button>
+	</div>
 </main>
 
 <style>
 :global(body){
-	background: #262626;
+	background: #1f2125;
 	color: #EEEEEE;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 .credit{
 	text-align: middle;
-	font-size: 1;
+	font-size: 10%;
 	color: #aaaaaa;
 	margin-top: 0;
 	margin-bottom: 15px;
 }
 .ohjeet{
-	text-align: left;
 	margin-top: 50px;
-	margin-left: 50px;
+	background: #1e2f3e;
+	color: #EEEEEE
 }
 h1{
 	margin-top: 0;
-	font-size: 300%;
+	margin-bottom: 0;
+	font-size: 400%;
 }
 button{
+	margin-top: 30px;
+	margin-bottom: 50px;
 	font-size: 150%;
 	border-radius: .2em;
 	transition: box-shadow .25s;
