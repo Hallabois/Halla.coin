@@ -12,14 +12,16 @@
 Hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000
 
 # Arkkitehtuurista
-/public/							```Compilattu koodi ja staattinen media (mm. 3d-mallit)```
+/public/                ```Compilattu koodi ja staattinen media (mm. 3d-mallit)```
 
-/scripts/						```turha```
+/scripts/						    ```turha```
 
-/src/								```Lähdekoodi```
+/src/								    ```Lähdekoodi```
 
-/src/App.svelte			```Nettisivun päätiedosto, perjaatteessa "index.html"```
+/src/App.svelte			    ```Nettisivun päätiedosto, perjaatteessa "index.html"```
 
-/src/main.js				```Wrapperi, tuskin tarpeellista koskaan avata tai muokata```
+/src/main.js				    ```Wrapperi, tuskin tarpeellista koskaan avata tai muokata```
 
-/src/scene.js				```3D-kolikon luova javascript-tiedosto, käyttää kirjastoa "three.js"```
+/src/scene.svelte		    ```3D-kolikon luova javascript-tiedosto, käyttää kirjastoa "three.js"```
+
+src/Loadingbar.svelte   ```Teksti, joka näkyy kun kolikkoa vielä ladataan```
