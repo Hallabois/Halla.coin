@@ -18,7 +18,7 @@
 		<!-- <button on:click={go}> Lataa nyt </button> -->
 		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="downloadicon.png" alt="HallaDownload" width="80" height="80"></a>
 		<h2>Asentaminen Windowsille (64-bit)</h2>
-		<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/asennus">Selvempi ohje nyt saatavilla! (https://hallabois.github.io/Hallacoin-ohjeet/asennus)</a><br><br><br>
+		<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/asennus">Yksityiskohtaisempi ohje nyt saatavilla!</a><br><br><br>
 		<ol>
 		<li>Lataa ja asenna <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
 		<li>Lataa tiedosto <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download="Hallacoin.conf">Hallacoin.conf</a> (Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.</li>
@@ -97,6 +97,7 @@
 }
 .ohjelinkki{
 	color: #EEEEEE;
+	text-decoration: underline;
 }
 /*                                    */
 h1{
