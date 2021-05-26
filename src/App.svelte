@@ -61,9 +61,19 @@
 /* Helpompi muuttaa kaikkia asioita kerralla  */
 .ohje {
 	padding-bottom: 50px;
-	margin: 0;
 	color: #EEEEEE;
+	width: 50%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	box-shadow: inset .210em .210em .420em #00000042;
+	border: 1.5px solid #333333;
+	background: #212429;
 }
+
 .ohje-pariton {
 	background: #1e2f3e;
 	padding-top: 0;
@@ -123,5 +133,18 @@ button{
 button:hover{
 	box-shadow: .5em .5em 1em black;
 	cursor: pointer;
+}
+
+
+/* Puhelin etc */
+@media only screen and (max-width: 1000px) {
+	.ohje{
+		width: calc(99% - 3em);
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	ol{
+		width: 75%;
+	}
 }
 </style>
