@@ -37,7 +37,7 @@
 	<div class="ohje ohje-pariton">
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>Mikä on Hallacoin?</h2>
-		<p class="about">Hallacoin on <a href="https://discord.gg/4HFVy2BAbe">Hallabois</a>-palvelimen kehittämä ja ylläpitämä kryptovaluutta. Hallacoinilla voi mm. ostaa rankkeja palvelimelta. Hallacoinilla ei (vielä tässä vaiheessa) ole mitään oikeaa markkina-arvoa. Sitä voi kuitenkin käyttää kuten oikeaa valuuttaa, jos sellaiselle sattuu olemaan tarvetta.</p>
+		<p class="about">Hallacoin on <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>-palvelimen kehittämä ja ylläpitämä kryptovaluutta. Hallacoinilla voi mm. ostaa rankkeja palvelimelta. Hallacoinilla ei (vielä tässä vaiheessa) ole mitään oikeaa markkina-arvoa. Sitä voi kuitenkin käyttää kuten oikeaa valuuttaa, jos sellaiselle sattuu olemaan tarvetta.</p>
 		<p>Projektin <a href="https://github.com/hallabois">Github</a></p>
 	</div>
 	<div class="credits">
