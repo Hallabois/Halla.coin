@@ -7,7 +7,7 @@
 {#if !loaded}
 <main>
 	<p> Loading... </p>
-	<h3> {Math.round(loaded_percent * 100) / 100}% </h3>
+	<h3> {Math.round(loaded_percent * 100)}% </h3>
 </main>
 {/if}
 

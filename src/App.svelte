@@ -40,11 +40,11 @@
 		<p>Projektin <a href="https://github.com/hallabois">Github</a></p>
 	</div>
 	<div class="credits">
-	<h3>Credits:</h3>
+		<h3>Credits:</h3>
 		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
-		<p class="credit">Hallacoin 2D-model made by @Toivo, @Vizitys</p>
+		<p class="credit">Hallacoin 2D-texture made by @Toivo, @Vizitys</p>
 		<p class="credit">Website made by @E3R0, @Jonnelafin</p>
-		<p class="credit">Hallacoin framework by @Jonnelafin, @Vizitys, @VilkkuV</p>
+		<p class="credit">Hallacoin Core by The Litecoin developers, the Bitcoin developers, @Jonnelafin, @Vizitys, @VilkkuV</p>
 	</div>
 </main>
 
