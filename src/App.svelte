@@ -69,8 +69,8 @@
 	border-radius: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
-	box-shadow: inset .210em .210em .420em #00000042;
-	border: 1.5px solid #333333;
+	/*box-shadow: inset .210em .210em .420em #00000042;
+	border: 1.5px solid #333333;*/
 	background: #212429;
 }
 
