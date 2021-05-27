@@ -1,6 +1,7 @@
 <script>
 	import { dictionary, locale } from 'svelte-i18n';
 	import { onMount } from 'svelte';
+	import LangSwitcher from "./LangSwitcher.svelte";
 	import Scene from "./scene.svelte";
 	let tutorialURL = "https://hallabois.github.io/Hallacoin-ohjeet/";
 	function go(){
@@ -10,13 +11,20 @@
 	let loaded_percent = 0;
 	$: progress_display = loaded?"none":"inherit";
 	import { setupI18n, isLocaleLoaded, _ } from './i18n.js';
+	let lang = "fi";
 	$: if (!$isLocaleLoaded) {
-		setupI18n({ withLocale: 'fi' });
+		setupI18n({ withLocale: lang });
+	}
+	let lastLang = lang;
+	$: if(lastLang != lang){
+		setupI18n({ withLocale: lang });
+		lastLang = lang;
 	}
 </script>
 
 {#if $isLocaleLoaded}
 <main>
+	<LangSwitcher bind:lang={lang} />
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<h1>Hallacoin</h1>
 	<p class="laudatur">Since 1940 - Confido Autem In Halla - Inventum Est Ksyk</p>
