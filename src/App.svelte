@@ -18,13 +18,15 @@
 		<!-- <button on:click={go}> Lataa nyt </button> -->
 		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="downloadicon.png" alt="HallaDownload" width="80" height="80"></a>
 		<h2>Asentaminen Windowsille (64-bit)</h2>
-		<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/asennus">Yksityiskohtaisempi ohje nyt saatavilla!</a><br><br><br>
 		<ol>
 		<li>Lataa ja asenna <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
 		<li>Lataa tiedosto <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download="Hallacoin.conf">Hallacoin.conf</a> (Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.</li>
 		<li>Siirrä tiedosto kansioon C:\Users\SUNNIMITÄHÄN\AppData\Roaming\Hallacoin.</li>
 		<li>Olet valmis käyttämään Hallacoinia!</li>
 		</ol>
+		<br>
+		<br>
+    	<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/asennus">Yksityiskohtaisempi ohje asentamiseen</a>
 	</div>
 	<div class="ohje">
 		<img src="kaivostoiminta.png" alt="Kaivostoiminta" width="80" height="80">
@@ -46,6 +48,7 @@
 		<p class="credit">Hallacoin 2D-texture made by @Toivo, @Vizitys</p>
 		<p class="credit">Website made by @E3R0, @Jonnelafin</p>
 		<p class="credit">Hallacoin Core by The Litecoin developers, the Bitcoin developers, @Jonnelafin, @Vizitys, @VilkkuV</p>
+		<p class="credit">Also contributed @Erikoisjii, @Rohkeli</p>
 	</div>
 </main>
 
@@ -62,7 +65,7 @@
 .ohje {
 	padding-bottom: 50px;
 	color: #EEEEEE;
-	width: 50%;
+	width: 90%;
 	margin: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -71,7 +74,7 @@
 	padding-right: 2em;
 	/*box-shadow: inset .210em .210em .420em #00000042;
 	border: 1.5px solid #333333;*/
-	background: #212429;
+	background: #1a1d21;
 }
 
 .ohje-pariton {
@@ -96,8 +99,7 @@
 	padding-bottom: 10px;
 }
 .ohjelinkki{
-	color: #EEEEEE;
-	text-decoration: underline;
+	text-align: center;
 }
 /*                                    */
 h1{
@@ -118,8 +120,9 @@ ol{
 	text-align: left;
 }
 a{
-
+	color: #34e1eb;
 }
+
 img{
 	margin-top: 20px;
 	margin-bottom: 12px;
