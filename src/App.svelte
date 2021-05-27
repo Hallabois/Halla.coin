@@ -52,7 +52,7 @@
 		</ol>
 		<br />
 		<br />
-		<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/mining">Yksityiskohtaisempi ohje kaivostoimintaan</a>
+		<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/mining">{$_('app.kaivaminen_ohje_1')}</a>
 	</div>
 	<div class="ohje ohje-pariton">
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">

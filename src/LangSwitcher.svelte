@@ -8,8 +8,13 @@
 		"fi" : "🇫🇮",
 		"en" : "🇬🇧"
 	};
+	var localLang = localStorage.getItem("lang");
+	if(langs.includes(localLang)){
+		lang = localLang;
+	}
 	$: flag = flags[lang];
 	$: console.log("Switched lang to \"" + lang + "\"");
+	$: localStorage.setItem("lang", lang);
 </script>
 
 <main>
