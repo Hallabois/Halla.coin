@@ -35,6 +35,10 @@
 		<li>Lataa <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
 		<li>Mene Hallacoinin asennuskansioon ja suorita seuraava komento: Hallacoin-qt.exe -server -addresstype=legacy</li>
 		<li>Mene kansioon, johon latasit cpuminerin ja suorita seuraava komento: minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</li>
+		</ol>
+		<br>
+		<br>
+	<a class="ohjelinkki" href="https://hallabois.github.io/Hallacoin-ohjeet/mining">Yksityiskohtaisempi ohje kaivostoimintaan</a>
 	</div>
 	<div class="ohje ohje-pariton">
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
