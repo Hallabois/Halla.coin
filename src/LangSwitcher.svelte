@@ -13,22 +13,39 @@
 </script>
 
 <main>
-	{flag}
-	<select bind:value={lang}>
-		{#each langs as i}
-			<option>{i}</option>
-		{/each}
-	</select>
+	<div>
+		<span>{flag}</span>
+		<select bind:value={lang}>
+			{#each langs as i}
+				<option>{i}</option>
+			{/each}
+		</select>
+	</div>
 </main>
 
 <style>
 	main {
-		width: 90%;
+		/*width: 90%;*/
+		margin-right: 1em;
 		text-align: right;
-		margin: 0;
 		font-size: 150%;
 	}
 	select, option{
 		font-size: 1rem;
+	    background: #1e2f3e;
+	    border: none;
+	    color: white;
+	    border-radius: 5px;
+	    margin-bottom: 0px;
+	}
+	div {
+	    max-width: 4em;
+    	margin-left: auto;
+	    background: #1e2f3e;
+	    border-radius: 5px;
+	    padding: 0.2em;
+	}
+	span {
+		margin-bottom: 0.5em;
 	}
 </style>
