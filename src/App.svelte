@@ -35,7 +35,7 @@
 		<ol>
 		<li>{$_('app.asennus_win_1')} <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
 		<li>{$_('app.asennus_win_2a')} <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download="Hallacoin.conf">Hallacoin.conf</a> {$_('app.asennus_win_2b')}</li>
-		<li>{$_('app.asennus_win_3')} <span class="code">C:\Users\NAME\AppData\Roaming\Hallacoin.</span></li>
+		<li>{$_('app.asennus_win_3')} <code>C:\Users\NAME\AppData\Roaming\Hallacoin.</code></li>
 		<li>{$_('app.asennus_win_4')}</li>
 		</ol>
 		<br>
@@ -47,8 +47,8 @@
 		<h2>{$_('app.kaivaminen_win_title')}</h2>		
 		<ol>
 		<li>{$_('app.kaivaminen_win_1')} <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
-		<li>{$_('app.kaivaminen_win_2')} <span class="code">Hallacoin-qt.exe -server -addresstype=legacy</span></li>
-		<li>{$_('app.kaivaminen_win_3')} <span class="code">minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</span></li>
+		<li>{$_('app.kaivaminen_win_2')} <code>Hallacoin-qt.exe -server -addresstype=legacy</code></li>
+		<li>{$_('app.kaivaminen_win_3')} <code>minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</code></li>
 		</ol>
 		<br />
 		<br />
@@ -63,10 +63,10 @@
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
 		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
-		<p class="credit">Hallacoin 2D-texture made by @Toivo, @Vizitys</p>
-		<p class="credit">Website made by @E3R0, @Jonnelafin</p>
+		<p class="credit">Hallacoin 2D-texture made by @Lilbobber, @Vizitys</p>
+		<p class="credit">Website made by @Jonnelafin, @E3R0, @Vizitys, @Erikoisjii</p>
 		<p class="credit">Hallacoin Core by The Litecoin developers, the Bitcoin developers, @Jonnelafin, @Vizitys, @VilkkuV</p>
-		<p class="credit">Also contributed @Erikoisjii, @Rohkeli</p>
+		<p class="credit">Also contributed @Rohkeli</p>
 	</div>
 </main>
 {/if}
@@ -102,8 +102,11 @@
 	background: #1e2f3e;
 	padding-top: 0;
 }
-.code {
+code {
 	word-wrap: anywhere;
+	background: #535354;
+	border-radius: 3px;
+	padding: 0 0.5em;
 }
 .laudatur {
 	font-family: 'Mate SC', serif;
