@@ -6,6 +6,7 @@
 		"asennus_win_2b" : "(Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.",
 		"asennus_win_3" : "Siirrä tiedosto kansioon C:\\Users\\SUNNIMITÄHÄN\\AppData\\Roaming\\Hallacoin.",
 		"asennus_win_4" : "Olet valmis käyttämään Hallacoinia!",
+		"asennus_ohje_1": "Yksityiskohtaisempi ohje asentamiseen",
 		"kaivaminen_win_title" : "Kaivostoiminta",
 		"kaivaminen_win_1" : "Lataa",
 		"kaivaminen_win_2" : "Mene Hallacoinin asennuskansioon ja suorita seuraava komento:",
@@ -13,6 +14,8 @@
 		"about_title" : "Mikä on Hallacoin?",
 		"about_body_a" : "Hallacoin on",
 		"about_body_b" : "-palvelimen kehittämä ja ylläpitämä kryptovaluutta. Hallacoinilla voi mm. ostaa rankkeja palvelimelta. Hallacoinilla ei (vielä tässä vaiheessa) ole mitään oikeaa markkina-arvoa. Sitä voi kuitenkin käyttää kuten oikeaa valuuttaa, jos sellaiselle sattuu olemaan tarvetta.",
+		"about_github_a" : "Projektin",
+		"about_github_b" : " ",
 		"credits_title" : "Credits"
 	}
 }
