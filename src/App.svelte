@@ -71,7 +71,7 @@
 .ohje {
 	padding-bottom: 50px;
 	color: #EEEEEE;
-	width: 90%;
+	width: 75%;
 	margin: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -154,6 +154,9 @@ button:hover{
 		padding-right: 1em;
 	}
 	ol{
+		width: 75%;
+	}
+	.about{
 		width: 75%;
 	}
 }
