@@ -104,6 +104,8 @@
 	font-family: 'Mate SC', serif;
 	margin-top: 15px;
 	margin-bottom: 30px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 .about{
 	width: 50%;
