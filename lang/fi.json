@@ -4,7 +4,7 @@
 		"asennus_win_1" : "Lataa ja asenna",
 		"asennus_win_2a" : "Lataa tiedosto",
 		"asennus_win_2b" : "(Ctrl+S lataa tiedoston). Pidä huolta että tiedoston tiedostopääte on .conf eikä .txt.",
-		"asennus_win_3" : "Siirrä tiedosto kansioon C:\\Users\\SUNNIMITÄHÄN\\AppData\\Roaming\\Hallacoin.",
+		"asennus_win_3" : "Siirrä tiedosto kansioon",
 		"asennus_win_4" : "Olet valmis käyttämään Hallacoinia!",
 		"asennus_ohje_1": "Yksityiskohtaisempi ohje asentamiseen",
 		"kaivaminen_win_title" : "Kaivostoiminta",

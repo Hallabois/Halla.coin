@@ -1,0 +1,21 @@
+{
+	"app": {
+		"asennus_win_title" : "Installing on Windows (64-bit)",
+		"asennus_win_1" : "Download and install",
+		"asennus_win_2a" : "Download the file",
+		"asennus_win_2b" : "(Ctrl+S saves the file). Please make sure that the file-extension is .conf and NOT .txt.",
+		"asennus_win_3" : "Move the file to the folder",
+		"asennus_win_4" : "You are now equipped to use Hallacoin!",
+		"asennus_ohje_1": "A more detailed guide for installation",
+		"kaivaminen_win_title" : "Mining",
+		"kaivaminen_win_1" : "Download and extract",
+		"kaivaminen_win_2" : "Go to Hallacoin's installation directory and run the following command:",
+		"kaivaminen_win_3" : "Go to CPUMiner's installation directory and run the following command:",
+		"about_title" : "What is Hallacoin?",
+		"about_body_a" : "Hallacoin is a cryptocurrency developed by the ",
+		"about_body_b" : "-Discord server. You can use hallacoin to buy ranks from our server, for example. Hallacoin doesn't have a practical market-value at this stage yet. It can still be used like any conventional currency, when needed.",
+		"about_github_a" : "The project's",
+		"about_github_b" : " ",
+		"credits_title" : "Credits"
+	}
+}
