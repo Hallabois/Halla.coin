@@ -14,10 +14,10 @@
 
 <main>
 	<div>
-		<span>{flag}</span>
+		<!--<span>{flag}</span>-->
 		<select bind:value={lang}>
 			{#each langs as i}
-				<option>{i}</option>
+				<option value={i}>{i}-{flags[i]}</option>
 			{/each}
 		</select>
 	</div>
@@ -31,7 +31,7 @@
 		font-size: 150%;
 	}
 	select, option{
-		font-size: 1rem;
+		font-size: 1.25rem;
 	    background: #1e2f3e;
 	    border: none;
 	    color: white;
