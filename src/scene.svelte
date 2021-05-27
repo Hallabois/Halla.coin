@@ -26,8 +26,17 @@
 	let time;	// for animate
 
 	let light = new THREE.PointLight(0xffffff);
-	light.position.set(10, 5, 0);
+	light.position.set(0, 0, 10);
+	light.intensity = 0.1;
 	scene.add(light);
+	let light_a = new THREE.PointLight(0xffffff);
+	light_a.position.set(20, -2, 10);
+	light_a.intensity = 0.3;
+	scene.add(light_a);
+	let light_b = new THREE.PointLight(0xffffff);
+	light_b.position.set(-20, 2, 10);
+	light_b.intensity = 0.3;
+	scene.add(light_b);
 
 	let light2 = new THREE.PointLight(0xffffff);
 	light2.position.set(-10, 5, 0);
@@ -38,7 +47,7 @@
 	scene.add(light3);
 
 	let spot = new THREE.PointLight(0xffffff);
-	light.position.set(0, 0, 10);
+	spot.position.set(0, 0, 10);
 	spot.intensity = 0.5;
 //	scene.add(spot);
 
