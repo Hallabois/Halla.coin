@@ -35,7 +35,7 @@
 		<ol>
 		<li>{$_('app.asennus_win_1')} <a href="https://github.com/hallabois/hallacoin/releases" download>Hallacoin-x.xx.x-win64-setup.exe</a></li>
 		<li>{$_('app.asennus_win_2a')} <a href="https://raw.githubusercontent.com/hallabois/hallacoin/master/Hallacoin.conf" download="Hallacoin.conf">Hallacoin.conf</a> {$_('app.asennus_win_2b')}</li>
-		<li>{$_('app.asennus_win_3')} C:\Users\NAME\AppData\Roaming\Hallacoin.</li>
+		<li>{$_('app.asennus_win_3')} <span class="code">C:\Users\NAME\AppData\Roaming\Hallacoin.</span></li>
 		<li>{$_('app.asennus_win_4')}</li>
 		</ol>
 		<br>
@@ -47,8 +47,8 @@
 		<h2>{$_('app.kaivaminen_win_title')}</h2>		
 		<ol>
 		<li>{$_('app.kaivaminen_win_1')} <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
-		<li>{$_('app.kaivaminen_win_2')} Hallacoin-qt.exe -server -addresstype=legacy</li>
-		<li>{$_('app.kaivaminen_win_3')} minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</li>
+		<li>{$_('app.kaivaminen_win_2')} <span class="code">Hallacoin-qt.exe -server -addresstype=legacy</span></li>
+		<li>{$_('app.kaivaminen_win_3')} <span class="code">minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</span></li>
 		</ol>
 		<br />
 		<br />
@@ -101,6 +101,9 @@
 .ohje-pariton {
 	background: #1e2f3e;
 	padding-top: 0;
+}
+.code {
+	word-wrap: anywhere;
 }
 .laudatur {
 	font-family: 'Mate SC', serif;
