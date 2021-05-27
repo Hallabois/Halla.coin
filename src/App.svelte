@@ -94,6 +94,8 @@
 	/*box-shadow: inset .210em .210em .420em #00000042;
 	border: 1.5px solid #333333;*/
 	background: #1a1d21;
+	text-overflow: clip;
+	overflow: clip;
 }
 
 .ohje-pariton {
