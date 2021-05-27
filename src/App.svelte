@@ -40,8 +40,7 @@
 		<ol>
 		<li>{$_('app.kaivaminen_win_1')} <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
 		<li>{$_('app.kaivaminen_win_2')} Hallacoin-qt.exe -server -addresstype=legacy</li>
-		<li>{$_('app.kaivaminen_win_3')} minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</li>
-	</div>
+		<li>{$_('app.kaivaminen_win_3')} minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</li>	</div>
 	<div class="ohje ohje-pariton">
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>{$_('app.about_title')}</h2>
