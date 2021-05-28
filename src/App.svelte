@@ -24,7 +24,7 @@
 
 {#if $isLocaleLoaded}
 <main>
-	<h2 class="development">In development</h2>
+	<h4 class="development">In development</h4>
 	<LangSwitcher bind:lang={lang} />
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<h1>Hallacoin</h1>
@@ -62,9 +62,14 @@
 		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a>{$_('app.about_github_b')}</p>
 	</div>
 	<div class="halloffame">
-		<h3 class="laudatur">Special Honors</h3>
+		<h3>Special Honors</h3>
 		<p class="honors honorE"> Eximia 10 000 HLA - @Nitramli </p><br/>
 		<p class="honors honorE"> Eximia 10 000 HLA - @E3R0 </p>
+		<p class="honors honorE"> Eximia 10 000 HLA - @LilBobber </p><br/>
+		<p class="honors honorE"> Eximia 10 000 HLA - @Vizitys </p>
+		<p class="honors honorE"> Eximia 10 000 HLA - @Jonnelafin </p>
+		<p class="honors honorM"> Magna 1 000 HLA - @PussySlayer43</p>
+		<p class="honors honorI"> Improbatur 2 000 HLA - @Erikoisjii </p>
 	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
@@ -92,7 +97,7 @@
 	padding-right: .3em;
 	padding-left: .3em;
 	padding-bottom: .2em;
-	background: #bf3a2e;
+	background: #9c483a;
 	position: relative;
 	bottom: 2px;
 }
@@ -145,7 +150,7 @@ code {
 	text-align: center;
 }
 .halloffame{
-	background: #49443c;
+	background: #32353b;
 	padding-bottom: 20px;
 	padding-top: 2px;
 	width: 30%;
@@ -170,8 +175,8 @@ code {
 	padding-bottom: .2em;
 }
 .honorM{
-	color: #5b4e38;
-	background: #f19731;
+	color: #f19731;
+	background: #5b4e38;
 
 }
 .honorE{
@@ -182,6 +187,11 @@ code {
 .honorL{
 	color: #5a3d50;
 	background: #db23d2;
+
+}
+.honorI{
+	color: #ff0302;
+	background: #493238;
 
 }
 /*                                    */

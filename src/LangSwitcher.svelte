@@ -9,7 +9,7 @@
 		"en" : "🇬🇧"
 	};
 	let langNames = {
-		"fi" : "Suomeksi",
+		"fi" : "Suomi",
 		"en" : "English"
 	}
 	var localLang = localStorage.getItem("lang");
