@@ -47,8 +47,8 @@
 		<h2>{$_('app.kaivaminen_win_title')}</h2>		
 		<ol>
 		<li>{$_('app.kaivaminen_win_1')} <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
-		<li>{$_('app.kaivaminen_win_2')} <code>Hallacoin-qt.exe -server -addresstype=legacy</code></li>
-		<li>{$_('app.kaivaminen_win_3')} <code>minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite (Hallacoin osoite löytyy vastaanota varoja-osiosta)</code></li>
+		<li>{$_('app.kaivaminen_win_2')} <br><code>Hallacoin-qt.exe -server -addresstype=legacy</code></li>
+		<li>{$_('app.kaivaminen_win_3')} <br><code>minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=sun hallacoin-osoite</code> Hallacoin osoite löytyy vastaanota varoja-osiosta</li>
 		</ol>
 		<br />
 		<br />
@@ -60,10 +60,15 @@
 		<p class="about">{$_('app.about_body_a')} <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>{$_('app.about_body_b')}</p>
 		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a>{$_('app.about_github_b')}</p>
 	</div>
+	<div class="honors">
+		<h3>Special Honors</h3>
+		<p class="honorE"> Eximia 10 000 HLA - @Nitramli </p><br/>
+		<p class="honorE"> Eximia 10 000 HLA - @E3R0 </p>
+	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
 		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
-		<p class="credit">Hallacoin 2D-texture made by @Lilbobber, @Vizitys</p>
+		<p class="credit">Hallacoin 2D-texture made by @LilBobber, @Vizitys</p>
 		<p class="credit">Website made by @Jonnelafin, @E3R0, @Vizitys, @Erikoisjii</p>
 		<p class="credit">Hallacoin Core by The Litecoin developers, the Bitcoin developers, @Jonnelafin, @Vizitys, @VilkkuV</p>
 		<p class="credit">Also contributed @Rohkeli</p>
@@ -129,6 +134,17 @@ code {
 }
 .ohjelinkki{
 	text-align: center;
+}
+.honors{
+ 
+}
+.honorE{
+	display: inline-block;
+	color: #42f56c;
+	background: #48cf68;
+	text-align: center;
+	border-radius: 3px;
+	padding: .1em .1em;
 }
 /*                                    */
 h1{
