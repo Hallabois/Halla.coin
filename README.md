@@ -27,5 +27,5 @@ Hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000
 src/Loadingbar.svelte   ```Teksti, joka näkyy kun kolikkoa vielä ladataan```
 
 # Analytiikka
-https://simpleanalytics.com/hallacoin.ml - Kunnioittaa kävijöiden yksityisyyttä paremmin kuin google :)
+https://simpleanalytics.com/hallacoin.ml - Kunnioittaa kävijöiden yksityisyyttä paremmin kuin google, ei käytä cookieita :)
 Lisää analytiikka-palvelun lupauksia: https://docs.simpleanalytics.com/what-we-collect?ref=simpleanalytics.com
