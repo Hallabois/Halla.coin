@@ -33,6 +33,10 @@
 </main>
 
 <style>
+	@font-face {
+	  font-family: emoji;
+	  src: url(//xem.github.io/emoji/twemoji.ttf);
+	}
 	main {
 		/*width: 90%;*/
 		margin-right: 1em;
@@ -41,6 +45,7 @@
 		margin-top: -.3em;
 	}
 	select, option{
+		font-family: emoji, inherit;
 		font-size: 1.25rem;
 	    background: #1e2f3e;
 	    border: none;
