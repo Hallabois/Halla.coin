@@ -1,5 +1,6 @@
 /node_modules/
 /public/build/
-/src/log.txt
+log.txt
+*/**/log.txt
 
 .DS_Store
