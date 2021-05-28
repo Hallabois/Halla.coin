@@ -60,10 +60,10 @@
 		<p class="about">{$_('app.about_body_a')} <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>{$_('app.about_body_b')}</p>
 		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a>{$_('app.about_github_b')}</p>
 	</div>
-	<div class="honors">
+	<div class="halloffame">
 		<h3>Special Honors</h3>
-		<p class="honorE"> Eximia 10 000 HLA - @Nitramli </p><br/>
-		<p class="honorE"> Eximia 10 000 HLA - @E3R0 </p>
+		<p class="honors honorE"> Eximia 10 000 HLA - @Nitramli </p><br/>
+		<p class="honors honorE"> Eximia 10 000 HLA - @E3R0 </p>
 	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
@@ -135,16 +135,45 @@ code {
 .ohjelinkki{
 	text-align: center;
 }
+.halloffame{
+	background: #49443c;
+	padding-bottom: 20px;
+	padding-top: 2px;
+	width: 30%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-overflow: clip;
+	overflow: clip;
+}
 .honors{
- 
+	margin-bottom: .5em;
+	margin-top: 0;
+	display: inline-block;
+ 	text-align: center;
+	border-radius: 3px;
+	padding-top: .1em;
+	padding-right: .2em;
+	padding-left: .2em;
+	padding-bottom: .2em;
+}
+.honorM{
+	color: #5b4e38;
+	background: #f19731;
+
 }
 .honorE{
-	display: inline-block;
-	color: #42f56c;
-	background: #48cf68;
-	text-align: center;
-	border-radius: 3px;
-	padding: .1em .1em;
+	color: #37e5b0;
+	background: #435748;
+
+}
+.honorL{
+	color: #5a3d50;
+	background: #db23d2;
+
 }
 /*                                    */
 h1{
