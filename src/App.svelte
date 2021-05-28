@@ -24,6 +24,7 @@
 
 {#if $isLocaleLoaded}
 <main>
+	<h2 class="development">In development</h2>
 	<LangSwitcher bind:lang={lang} />
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<h1>Hallacoin</h1>
@@ -61,7 +62,7 @@
 		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a>{$_('app.about_github_b')}</p>
 	</div>
 	<div class="halloffame">
-		<h3>Special Honors</h3>
+		<h3 class="laudatur">Special Honors</h3>
 		<p class="honors honorE"> Eximia 10 000 HLA - @Nitramli </p><br/>
 		<p class="honors honorE"> Eximia 10 000 HLA - @E3R0 </p>
 	</div>
@@ -84,8 +85,17 @@
 	margin: 0;
 	padding: 0;
 }
-
-/* Helpompi muuttaa kaikkia asioita kerralla  */
+.development{
+	margin-bottom: .5em;
+	margin: 0;
+	padding-top: .1em;
+	padding-right: .3em;
+	padding-left: .3em;
+	padding-bottom: .2em;
+	background: #bf3a2e;
+	position: relative;
+	bottom: 2px;
+}
 .ohje {
 	padding-bottom: 50px;
 	color: #EEEEEE;
@@ -102,7 +112,6 @@
 	text-overflow: clip;
 	overflow: clip;
 }
-
 .ohje-pariton {
 	background: #1e2f3e;
 	padding-top: 0;
