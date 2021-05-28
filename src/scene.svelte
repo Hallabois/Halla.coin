@@ -71,13 +71,13 @@
 		color: 0xFFCE5B,
 		envMap: textureEquirec,
 		metalness: 1.0,
-		roughness: 0.15,
+		roughness: 0.175,
 		flatShading: false
 	});
 	var facematerial = new THREE.MeshPhongMaterial({
 		map: new THREE.TextureLoader().load('assets/models/hallacoin50000.png'),
 		normalMap: new THREE.TextureLoader().load('assets/models/Normal.png'),
-		envMap: new THREE.TextureLoader().load('assets/parched_canal.png'),
+		envMap: new THREE.TextureLoader().load('assets/parched_canal.jpg'),
 		shininess: 100,
 		reflectivity: 0.5,
 		flatShading: false
