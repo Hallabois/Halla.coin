@@ -8,6 +8,10 @@
 		"fi" : "🇫🇮",
 		"en" : "🇬🇧"
 	};
+	let langNames = {
+		"fi" : "suomi",
+		"en" : "English"
+	}
 	var localLang = localStorage.getItem("lang");
 	if(langs.includes(localLang)){
 		lang = localLang;
@@ -22,7 +26,7 @@
 		<!--<span>{flag}</span>-->
 		<select bind:value={lang}>
 			{#each langs as i}
-				<option value={i}>{i}-{flags[i]}</option>
+				<option value={i}>{langNames[i]}-{flags[i]}</option>
 			{/each}
 		</select>
 	</div>
@@ -45,7 +49,7 @@
 	    margin-bottom: 0px;
 	}
 	div {
-	    max-width: 4em;
+	    max-width: 5em;
     	margin-left: auto;
 	    background: #1e2f3e;
 	    border-radius: 5px;
