@@ -34,6 +34,7 @@
 		margin-right: 1em;
 		text-align: right;
 		font-size: 150%;
+		margin-top: -.2em;
 	}
 	select, option{
 		font-size: 1.25rem;
