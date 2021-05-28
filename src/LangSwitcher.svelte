@@ -9,7 +9,7 @@
 		"en" : "🇬🇧"
 	};
 	let langNames = {
-		"fi" : "suomi",
+		"fi" : "Suomeksi",
 		"en" : "English"
 	}
 	var localLang = localStorage.getItem("lang");
@@ -49,7 +49,7 @@
 	    margin-bottom: 0px;
 	}
 	div {
-	    max-width: 5em;
+	    max-width: 6em;
     	margin-left: auto;
 	    background: #1e2f3e;
 	    border-radius: 5px;
