@@ -80,6 +80,7 @@
 		<p class="credit">Also contributed @Rohkeli</p>
 	</div>
 </main>
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 {/if}
 
 <style>
