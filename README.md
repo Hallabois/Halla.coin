@@ -25,3 +25,7 @@ Hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000
 /src/scene.svelte		    ```3D-kolikon luova javascript-tiedosto, käyttää kirjastoa "three.js"```
 
 src/Loadingbar.svelte   ```Teksti, joka näkyy kun kolikkoa vielä ladataan```
+
+# Analytiikka
+https://simpleanalytics.com/hallacoin.ml - Kunnioittaa kävijöiden yksityisyyttä paremmin kuin google :)
+Lisää analytiikka-palvelun lupauksia: https://docs.simpleanalytics.com/what-we-collect?ref=simpleanalytics.com
