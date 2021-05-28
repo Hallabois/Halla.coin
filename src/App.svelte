@@ -246,5 +246,8 @@ button:hover{
 	.about{
 		width: 75%;
 	}
+	halloffame {
+		width: 70%;
+	}
 }
 </style>
