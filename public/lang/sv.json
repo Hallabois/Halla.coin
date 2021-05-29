@@ -1,0 +1,24 @@
+{
+	"app": {
+		"asennus_win_title" : "Installera på Windows (64-bitars)",
+		"asennus_win_1" : "Ladda ner och installera",
+		"asennus_win_2a" : "Ladda ner filen",
+		"asennus_win_2b" : "(Ctrl+S sparar filen). Se till att filtillägget är .conf och INTE .txt.",
+		"asennus_win_3" : "Flytta filen till mappen",
+		"asennus_win_4" : "Du är nu redo för att använda Hallacoin!",
+		"asennus_ohje_1": "En mer detaljerad guide för installation (bara på Finska)",
+		"kaivaminen_win_title" : "Gruvdrift",
+		"kaivaminen_win_1" : "Ladda ner och extrahera",
+		"kaivaminen_win_2" : "Gå till Hallacoins installationskatalog och kör följande kommando:",
+		"kaivaminen_win_3" : "Gå till CPUMiners installationskatalog och kör följande kommando:",
+		"kaivaminen_ohje_1" : "En mer detaljerad guide för gruvdrift (bara på Finska)",
+		"about_title" : "Vad är Hallacoin?",
+		"about_body_a" : " Hallacoin är en kryptovaluta som utvecklats av ",
+		"about_body_b" : "-Discord-server. Hallacoin har inget praktiskt marknadsvärde. Det kan fortfarande användas som vilken konventionell valuta som helst, när det behövs.",
+		"about_paytowin_a" : "Du kan använda Hallacoin för att köpa dig ett särskilt omnämnande på den här webbplatsen. Det finns tre olika grader tillgängliga:",
+		"about_paytowin_b" : "Du kan köpa dem genom att skicka en betalning till adressen: MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B. Ange även det namn som du vill använda.",
+		"about_github_a" : " ",
+		"about_github_b" : "av projektet",
+		"credits_title" : "Krediter"
+	}
+}

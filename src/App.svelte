@@ -59,7 +59,7 @@
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>{$_('app.about_title')}</h2>
 		<p class="about">{$_('app.about_body_a')} <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>{$_('app.about_body_b')}</p>
-		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a>{$_('app.about_github_b')}</p>
+		<p>{$_('app.about_paytowin_a')}</p><p class="honors honorM"> Magna 1 000 HLA </p><br/><p class="honors honorE"> Eximia 10 000 HLA </p><br/><p class="honors honorL"> Laudatur 100 000 HLA </p><p>{$_('app.about_paytowin_b')}</p>	
 	</div>
 	<div class="halloffame">
 		<h3>Special Honors</h3>
@@ -73,10 +73,13 @@
 	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
-		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
-		<p class="credit">Hallacoin 2D-texture made by @LilBobber, @Vizitys</p>
+		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a> {$_('app.about_github_b')} </p>
+		<p class="credit">Hallacoin Framework by The Litecoin developers, the Bitcoin developers</p>
+		<p class="credit">Hallacoin core by @Jonnelafin, @Vizitys, @VilkkuV</p>
 		<p class="credit">Website made by @Jonnelafin, @E3R0, @Vizitys, @Erikoisjii</p>
-		<p class="credit">Hallacoin Core by The Litecoin developers, the Bitcoin developers, @Jonnelafin, @Vizitys, @VilkkuV</p>
+		<p class="credit">Hallacoin 2D-texture made by @LilBobber, @Vizitys</p>
+		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
+		<p class="credit">Translations by @E3R0</p>	
 		<p class="credit">Also contributed @Rohkeli</p>
 	</div>
 </main>
@@ -187,8 +190,8 @@ code {
 
 }
 .honorL{
-	color: #5a3d50;
-	background: #db23d2;
+	color: #db23d2;
+	background: #5a3d50;
 
 }
 .honorI{

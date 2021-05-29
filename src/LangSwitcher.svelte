@@ -1,16 +1,29 @@
 <script>
 	let langs = [
 		"fi",
-		"en"
+		"en",
+		"sp",
+		"sv",
+		"ge",
+		"fr"
 	];
 	export let lang = "fi";
 	let flags = {
 		"fi" : "🇫🇮",
-		"en" : "🇬🇧"
+		"en" : "🇬🇧",
+		"sp" : "sp",
+		"sv" : "sv",
+		"ge" : "ge",
+		"fr" : "fr"
+		
 	};
 	let langNames = {
 		"fi" : "Suomi",
-		"en" : "English"
+		"en" : "English",
+		"sp" : "Español",
+		"sv" : "Svenska",
+		"ge" : "Deutsch",
+		"fr" : "Français"
 	}
 	var localLang = localStorage.getItem("lang");
 	if(langs.includes(localLang)){
