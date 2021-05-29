@@ -32,6 +32,7 @@
 	$: flag = flags[lang];
 	$: console.log("Switched lang to \"" + lang + "\"");
 	$: localStorage.setItem("lang", lang);
+	$: document.documentElement.lang = lang;
 </script>
 
 <main>
