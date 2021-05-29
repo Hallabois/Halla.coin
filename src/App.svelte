@@ -50,6 +50,7 @@
 		<li>{$_('app.kaivaminen_win_1')} <a href="https://sourceforge.net/projects/cpuminer/files/latest/download">cpuminer</a></li>
 		<li>{$_('app.kaivaminen_win_2')} <br><code>Hallacoin-qt.exe -server -addresstype=legacy</code></li>
 		<li>{$_('app.kaivaminen_win_3')} <br><code>minerd -o http://localhost:9332/ --user darius --pass rucker --coinbase-addr=YOURHALLACOINADRESS</code></li>
+		<li>{$_('app.kaivaminen_win_4')}</li>
 		</ol>
 		<br />
 		<br />
