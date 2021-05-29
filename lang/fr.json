@@ -11,12 +11,22 @@
 		"kaivaminen_win_1" : "Télécharger et extraire",
 		"kaivaminen_win_2" : "Allez dans le répertoire d'installation de Hallacoin et exécutez la commande suivante:",
 		"kaivaminen_win_3" : "Allez dans le répertoire d'installation de CPUMiner et exécutez la commande suivante:",
+<<<<<<< HEAD
+		"kaivaminen_win_4" : "Vous êtes en train de miner du Hallacoin!",
+		"kaivaminen_ohje_1" : "Un guide d'minière plus détaillé (en finnois uniquement)",
+		"about_title" : "Qu'est-ce que le Hallacoin ?",
+		"about_body_a" : "Le Hallacoin est une crypto-monnaie développée par le ",
+		"about_body_b" : "-Serveur discord. L'hallacoin n'a pas de valeur marchande pratique. Il peut néanmoins être utilisé comme toute monnaie conventionnelle, en cas de besoin.",
+		"about_paytowin_a" : "Vous pouvez utiliser des Hallacoin pour vous acheter une mention spéciale sur ce site. Il existe trois rangs différents:",
+		"about_paytowin_b" : "Vous pouvez les acheter en envoyant un paiement à l'adresse : MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B. Veuillez également envoyer le nom que vous souhaitez utiliser sur Discord à E3R0#4810, et inclure une capture d'écran de la transaction comme preuve d'achat..",
+=======
 		"kaivaminen_ohje_1" : "Un guide d'minière plus détaillé (en finnois seulement)",
 		"about_title" : "Qu'est-ce que le Hallacoin?",
 		"about_body_a" : "Le Hallacoin est une crypto-monnaie développée par le ",
 		"about_body_b" : " serveur Discord. L'hallacoin n'a pas de valeur marchande pratique. Il peut néanmoins être utilisé comme toute monnaie conventionnelle, en cas de besoin.",
 		"about_paytowin_a" : "Vous pouvez utiliser des Hallacoin pour acheter une mention spéciale sur ce site. Il existe trois rangs différents:",
 		"about_paytowin_b" : "Vous pouvez les acheter en envoyant un paiement à l'adresse : MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B. Veuillez également indiquer le nom que vous souhaitez voir utilisé dans le paiement.",
+>>>>>>> 205a783cbdb018e7680bb533d6046af7c470ff39
 		"about_github_a" : " ",
 		"about_github_b" : "du projet",
 		"credits_title" : "Crédits"
