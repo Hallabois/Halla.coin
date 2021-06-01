@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Validate translationfile JSON-integrity
-        run: jsonlint-php -v public/lang/*.json
+        run: jsonlint-php public/lang/*.json
