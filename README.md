@@ -1,4 +1,4 @@
-# Hallacoin.x
+# Hallacoin.x [![Translation file integrity](https://github.com/hallabois/Hallacoin.x/actions/workflows/jsonCheck.yml/badge.svg)](https://github.com/hallabois/Hallacoin.x/actions/workflows/jsonCheck.yml)
 Projektin nettisivu.
 [https://hallabois.github.io/Hallacoin.x/](https://hallabois.github.io/Hallacoin.x/)
 ---
