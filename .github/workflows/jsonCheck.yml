@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Translation file JSON validator
+name: Translation file integrity
 
 # Controls when the action will run. 
 on:
@@ -30,5 +30,5 @@ jobs:
         run: sudo apt install -y jsonlint
 
       # Runs a set of commands using the runners shell
-      - name: Validate translationfile JSON-integrity
+      - name: JSON integrity-check
         run: jsonlint-php public/lang/*.json
