@@ -20,7 +20,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "animate-css-grid": "^1.4.3",
     "sirv-cli": "^1.0.0",
     "svelte-i18n": "^3.3.9",
     "three": "^0.128.0"
