@@ -76,7 +76,6 @@
 	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
-		<p>{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a> {$_('app.about_github_b')} </p>
 		<p class="credit">Hallacoin Framework by The Litecoin developers, the Bitcoin developers</p>
 		<p class="credit">Hallacoin core by @Jonnelafin, @Vizitys, @VilkkuV</p>
 		<p class="credit">Website made by @Jonnelafin, @E3R0, @Vizitys, @Erikoisjii</p>
@@ -84,6 +83,14 @@
 		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
 		<p class="credit">Translations by @E3R0</p>	
 		<p class="credit">Also contributed @Rohkeli</p>
+	</div>
+	<hr />
+	<div class="footer">
+		<p>
+		{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a> {$_('app.about_github_b')}
+		|
+		<a href="https://simpleanalytics.com/hallacoin.ml">Simpleanalytics</a>
+		</p>
 	</div>
 </main>
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
@@ -201,6 +208,17 @@ code {
 	color: #ff0302;
 	background: #493238;
 
+}
+.footer {
+	padding-bottom: 50px;
+	color: #EEEEEE;
+	width: 75%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 /*                                    */
 h1{
