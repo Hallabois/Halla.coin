@@ -16,8 +16,9 @@
 		"about_title" : "Vad är Hallacoin?",
 		"about_body_a" : " Hallacoin är en kryptovaluta som är utvecklad av ",
 		"about_body_b" : "-Discord-servern. Hallacoin har inget praktiskt marknadsvärde. Det kan fortfarande användas som vilken konventionell valuta som helst, när det behövs.",
-		"about_paytowin_a" : "Du kan använda Hallacoin för att köpa dig ett särskilt omnämnande på den här webbplatsen. Det finns tre olika grader tillgängliga:",
-		"about_paytowin_b" : "Du kan köpa dem genom att skicka en betalning till adressen: MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B. Skicka också det namn du vill använda på Discord till E3R0#4810, och bifoga en skärmdump av transaktionen som bevis på köpet..",
+		"about_paytowin_1" : "Du kan använda Hallacoin för att köpa dig ett särskilt omnämnande på den här webbplatsen. Det finns tre olika grader tillgängliga:",
+		"about_paytowin_2a" : "Du kan köpa dem genom att skicka en betalning till adressen",
+		"about_paytowin_2b" : ". Skicka också det namn du vill använda på Discord till E3R0#4810, och bifoga en skärmdump av transaktionen som bevis på köpet.",
 		"about_github_a" : " ",
 		"about_github_b" : "av projektet",
 		"credits_title" : "Krediter"
