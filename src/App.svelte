@@ -60,7 +60,6 @@
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>{$_('app.about_title')}</h2>
 		<p class="about">{$_('app.about_body_a')} <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>{$_('app.about_body_b')}</p>
-		<p>{$_('app.about_paytowin_a')}</p><p class="honors honorM"> Magna 1 000 HLA </p><br/><p class="honors honorE"> Eximia 10 000 HLA </p><br/><p class="honors honorL"> Laudatur 100 000 HLA </p><p>{$_('app.about_paytowin_b')}</p>	
 	</div>
 	<div class="halloffame">
 		<h3>Special Honors</h3>
@@ -71,6 +70,9 @@
 		<p class="honors honorE"> Eximia 10 000 HLA - @Jonnelafin </p>
 		<p class="honors honorM"> Magna 1 000 HLA - @PussySlayer43</p>
 		<p class="honors honorI"> Improbatur 2 000 HLA - @Erikoisjii </p>
+		<hr />
+		<p>{$_('app.about_paytowin_1')}</p><p class="honors honorM"> Magna 1 000 HLA </p><br/><p class="honors honorE"> Eximia 10 000 HLA </p><br/><p class="honors honorL"> Laudatur 100 000 HLA </p>
+		<p>{$_('app.about_paytowin_2a')} <code>MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B</code>{$_('app.about_paytowin_2b')}</p>
 	</div>
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
@@ -159,7 +161,7 @@ code {
 	background: #32353b;
 	padding-bottom: 20px;
 	padding-top: 2px;
-	width: 30%;
+	width: 50%;
 	margin: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;

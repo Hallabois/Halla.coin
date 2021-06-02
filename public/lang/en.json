@@ -16,8 +16,9 @@
 		"about_title" : "What is Hallacoin?",
 		"about_body_a" : "Hallacoin is a cryptocurrency developed by the ",
 		"about_body_b" : "-Discord server. Hallacoin doesn't have a practical market-value at the moment. It can still be used like any conventional cryptocurrency when needed.",
-		"about_paytowin_a" : "You can use Hallacoin to buy yourself a special mention on this website. There are three different ranks available:",
-		"about_paytowin_b" : "You can buy these by sending a payment to the address: MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B. Please also send the name you want to be used on discord to E3R0#4810, and also include a screenshot of the transaction as a proof of purchase.",
+		"about_paytowin_1" : "You can use Hallacoin to buy yourself a special mention on this website. There are three different ranks available:",
+		"about_paytowin_2a" : "You can buy these by sending a payment to the address",
+		"about_paytowin_2b" : ". Please also send the name you want to be used on discord to E3R0#4810, and also include a screenshot of the transaction as a proof of purchase.",
 		"about_github_a" : "The project's",
 		"about_github_b" : " ",
 		"credits_title" : "Credits"
