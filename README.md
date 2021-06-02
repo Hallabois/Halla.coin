@@ -10,7 +10,7 @@ Projektin nettisivu.
 ```npm install```
 ## Käynnistä http-serveri
 ```npm run dev```
-Hostaa nettisivun koneellasi, normaalisti osoitteessa https://localhost:5000. Voit muokata lähdetiedostoja serverin ollessa käynnissä, kaikki compilataan muutosten jälkeen automaattisesti uudestaan.
+Hostaa nettisivun koneellasi, normaalisti osoitteessa http://localhost:5000. Voit muokata lähdetiedostoja serverin ollessa käynnissä, kaikki compilataan muutosten jälkeen automaattisesti uudestaan.
 
 # Arkkitehtuurista
 /public/                ```Compilattu koodi ja staattinen media (mm. 3d-mallit)```
