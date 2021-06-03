@@ -240,7 +240,7 @@ main, canvas {
 		width: auto !important;
 		max-width: 100%;
 		/*height: 50vh !important;*/
-		min-width: 270px;
+		min-width: 400px;
 	}
 }
 </style>

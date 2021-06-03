@@ -95,10 +95,6 @@
 {/if}
 
 <style>
-@font-face {
-	font-family: emoji;
-	src: url(//xem.github.io/emoji/twemoji.ttf);
-}
 :global(body){
 	background: #1f2125;
 	color: #EEEEEE;
