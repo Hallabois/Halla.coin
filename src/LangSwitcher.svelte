@@ -66,6 +66,7 @@
 	    color: white;
 	    border-radius: 5px;
 	    margin-bottom: 0px;
+		padding-top: 13px;
 	}
 	div {
 	    max-width: 6em;
