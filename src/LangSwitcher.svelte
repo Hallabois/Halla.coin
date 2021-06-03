@@ -49,7 +49,7 @@
 <style>
 	@font-face {
 	  font-family: emoji;
-	  src: url(//xem.github.io/emoji/twemoji.ttf);
+	  src: url(https://xem.github.io/emoji/twemoji.ttf);
 	}
 	main {
 		/*width: 90%;*/
