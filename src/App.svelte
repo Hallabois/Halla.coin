@@ -24,6 +24,9 @@
 
 {#if $isLocaleLoaded}
 <main>
+	<div class="infobar">
+	<h3>{$_('app.infobar')}</h3>
+	</div>
 	<LangSwitcher bind:lang={lang} />
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
 	<h1>Hallacoin</h1>
@@ -102,16 +105,10 @@
 	margin: 0;
 	padding: 0;
 }
-.development{
-	margin-bottom: .5em;
+.infobar{
 	margin: 0;
-	padding-top: .1em;
-	padding-right: .3em;
-	padding-left: .3em;
-	padding-bottom: .2em;
-	background: #9c483a;
+	background: #0fcbd1;
 	position: relative;
-	bottom: 2px;
 }
 .ohje {
 	padding-bottom: 50px;
@@ -229,6 +226,12 @@ h1{
 h2{
 	margin-top: 0;
 	margin-bottom: 40px;
+}
+h3{
+	margin: 0;
+	padding: 0.05em;
+	padding-bottom: 0.2em;
+	font-size: 125%;
 }
 ol{
 	width: 50%;

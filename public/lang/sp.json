@@ -1,5 +1,6 @@
 {
 	"app": {
+		"infobar" : "¡El servidor de Minecraft oficial de Hallacoin ya está abierto en mc.hallacoin.ml! | MC 1.17 - Survival",
 		"asennus_win_title" : "Instalación en Windows (64-bit)",
 		"asennus_win_1" : "Descarguer e instaler",
 		"asennus_win_2a" : "Descarguer el fichero",
