@@ -13,7 +13,7 @@ Projektin nettisivu.
 Hostaa nettisivun koneellasi, normaalisti osoitteessa http://localhost:5000. Voit muokata lähdetiedostoja serverin ollessa käynnissä, kaikki compilataan muutosten jälkeen automaattisesti uudestaan.
 
 # Arkkitehtuurista
-/public/                ```Compilattu koodi ja staattinen media (mm. 3d-mallit)```
+/public/                ```Compilattu koodi ja staattinen media (mm. 3d-mallit, ikonit ja muut kuvat)```
 
 /scripts/						    ```turha```
 
