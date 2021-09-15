@@ -107,7 +107,7 @@
 }
 .infobar{
 	margin: 0;
-	background: #0fcbd1;
+	background: #f54e42;
 	position: relative;
 }
 .ohje {
