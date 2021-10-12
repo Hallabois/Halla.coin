@@ -25,7 +25,7 @@
 {#if $isLocaleLoaded}
 <main>
 	<div class="infobar">
-	<h3>{$_('app.infobar')}</h3>
+	<h3>Tällä hetkellä poissa toiminnasta - Currently out of service</h3>
 	</div>
 	<LangSwitcher bind:lang={lang} />
 	<Scene bind:loaded={loaded} bind:loaded_percent={loaded_percent} />
@@ -90,6 +90,9 @@
 		{$_('app.about_github_a')} <a href="https://github.com/hallabois">Github</a> {$_('app.about_github_b')}
 		|
 		<a href="https://simpleanalytics.com/hallacoin.ml">Simpleanalytics</a>
+		</p>
+		<p>
+			<a href="https://hallabois.github.io/">Mady by Hallabois.</a>
 		</p>
 	</div>
 </main>
