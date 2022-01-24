@@ -61,7 +61,7 @@
 	<div class="ohje ohje-pariton">
 		<img src="hallacoin50000.png" alt="HallaCoin" width="80" height="80">
 		<h2>{$_('app.about_title')}</h2>
-		<p class="about">{$_('app.about_body_a')} <a href="https://discord.gg/7x25Jxrkvr">Hallabois</a>{$_('app.about_body_b')}</p>
+		<p class="about">{$_('app.about_body_a')} <a href="https://hallabois.github.io/invite">Hallabois</a>{$_('app.about_body_b')}</p>
 		<p>{$_('app.about_paytowin_1')}</p><p class="honors honorM"> Magna 1 000 HLA </p><br/><p class="honors honorE"> Eximia 10 000 HLA </p><br/><p class="honors honorL"> Laudatur 100 000 HLA </p>
 		<p>{$_('app.about_paytowin_2a')} <code>MVkf7yVKAL15D1dmCm2AExDDfo38JFYH6B</code>{$_('app.about_paytowin_2b')}</p>
 	</div>
