@@ -78,7 +78,7 @@
 	<div class="credits">
 		<h3>{$_('app.credits_title')}</h3>
 		<p class="credit">Hallacoin Framework by The Litecoin developers, the Bitcoin developers</p>
-		<p class="credit">Hallacoin core by @Jonnelafin, @Vizitys, @E3R0, < @VilkkuV</p>
+		<p class="credit">Hallacoin core by @Jonnelafin, @Vizitys, @E3R0, @VilkkuV</p>
 		<p class="credit">Website made by @E3R0, @Jonnelafin, @Vizitys, @Erikoisjii</p>
 		<p class="credit">Hallacoin 2D-texture made by @LilBobber, @Vizitys</p>
 		<p class="credit">Hallacoin 3D-model made by @Anatoli</p>
