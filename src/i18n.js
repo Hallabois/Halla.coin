@@ -7,15 +7,15 @@ function setupI18n({ withLocale: _locale } = { withLocale: 'en' }) {
 	const messsagesFileUrl = MESSAGE_FILE_URL_TEMPLATE.replace('{locale}', _locale);
 
 	return fetch(messsagesFileUrl)
-	.then(response => response.json())
+		.then(response => response.json())
 		.then((messages) => {
 			dictionary.set({ [_locale]: messages });
-			
+
 			locale.set(_locale);
 		}
-	);
+		);
 }
 
 const isLocaleLoaded = derived(locale, $locale => typeof $locale === 'string');
 
-export { _, setupI18n, isLocaleLoaded};
+export { _, setupI18n, isLocaleLoaded };
